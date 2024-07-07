@@ -7,7 +7,7 @@ function generateRandomCard() {
   const randomValor = valor[Math.floor(Math.random() * valor.length)];
   const randomSymbol = symbol[Math.floor(Math.random() * symbol.length)];
 
-  //declaracion de constantes para guardar el valor de la funcion por medio del ID
+  //declaracion de constantes para guardar el valor de la funcion por medio del ID//
   //si declaro esto así, como se muestra entre los comentarios de la linea 12, 13 y 14 el condicional no me recocnoce el color. ¿por qué?
   const symbolTop = document.getElementById("symbolTop"); //.innerHTML = randomSymbol;
   const cardValue = document.getElementById("value"); //.innerHTML = randomValor;
@@ -18,6 +18,7 @@ function generateRandomCard() {
   cardValue.innerHTML = randomValor;
   symbolDown.innerHTML = randomSymbol;
 
+  //condicional que genera el cambio de color//
   if (randomSymbol === "&hearts;" || randomSymbol === "&diams;") {
     symbolTop.style.color = "red";
     cardValue.style.color = "red";
