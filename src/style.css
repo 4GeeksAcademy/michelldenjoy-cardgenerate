@@ -10,7 +10,7 @@ body {
 .card {
   width: 200px;
   height: 300px;
-  border: 2px, solid;
+  border: 2px, solid white;
   display: flex;
   border-radius: 10px;
   flex-direction: column;
@@ -33,7 +33,7 @@ body {
   text-align: end;
 }
 .boton{
-  border: 3ppx solid;
+  border: 3ppx solid #002b0e;
   font-family: "Aldrich", sans-serif;
   padding: 10px;
   background-color: #002b0e;
