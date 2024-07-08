@@ -32,16 +32,16 @@ body {
   font-size: 50px;
   text-align: end;
 }
-
-.boton {
-  margin: 5px;
-  width: 150px;
+.boton{
+  border: 3ppx solid;
+  font-family: "Aldrich", sans-serif;
   padding: 10px;
+  background-color: #002b0e;
+  letter-spacing: 4px;
   border-radius: 5px;
-  background-image: linear-gradient(to right, #481d5f, rgb(197, 170, 96));
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
-}
-.boton:hover {
   color: white;
+}
+.boton:hover{
+  background-color: #0a702c;
+  box-shadow: 0 0 20px #f8f3f3;
 }
